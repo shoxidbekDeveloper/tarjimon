@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+     crossorigin="anonymous"
+     >
+    <link 
+    rel="stylesheet" 
+    href="style/main.css"
+    >
+    <title>Tarjimon</title>
+</head>
+<body>
+
+    <!-- Head -->
+      <header>
+          <h1>Online lug'at</h1>
+          <h5>Bizda <span class="element"></span></h5>
+      </header>
+    <!-- Head END -->
+    <!-- Text section start -->
+    <div class="text container">
+          <div class="row">
+              <div class="col-lg-10 col-12 col-sm-12 col-md-12 offset-lg-1">
+                  <textarea class="w-100">
+
+                  </textarea>
+              </div>
+          </div>
+    </div>
+    <!-- Text section end -->
+    <!-- Hero section start -->
+   <div class="container hero">
+       <div class="row">
+           <div class="col-lg-5 col-md-6 col-sm-6 col-12 offset-lg-1">
+            <form action="#">
+                <div>
+                    <select class="select-box" id="tarjimon">
+                        <option selected>
+                             Engilishcha
+                        </option>
+                        <option >
+                             Russian
+                        </option>
+                        <option >
+                             India
+                        </option>
+                        <option >
+                             Turkish
+                        </option>
+                    </select>
+                </div>
+            </form>
+            <textarea class="w-100"></textarea>
+           </div>
+           <div class="col-lg-5 col-md-6 col-sm-6 col-12">
+            <form action="#">
+                <div>
+                    <select class="select-box" id="tarjimon">
+                        <option selected>
+                             Uzbekcha
+                        </option>
+                        <option >
+                             Russian
+                        </option>
+                        <option >
+                             India
+                        </option>
+                        <option >
+                             Turkish
+                        </option>
+                    </select>
+                </div>
+            </form>
+            <textarea class="w-100"></textarea>
+           </div>
+           
+       </div>
+   </div>
+   <!-- Hero section end -->
+
+   
+   
+  
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+       let typed = new Typed('.element', {
+ strings: [
+ 'tezlik',
+ 'qulaylik',
+ 'bepul tarjimon'
+  ],
+  typeSpeed : 60,
+  backSpeed : 60,
+  loop: true
+});
+   </script>
+      <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+      crossorigin="anonymous"
+      >
+      </script>
+</body>
+</html>
