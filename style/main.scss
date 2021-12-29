@@ -16,16 +16,20 @@ header{
 }
 // text section style start
 .text{
+    margin-top: 10px;
     .row{
         div{
+            h1{
+                text-align: center;
+            }
             textarea{
-                margin-top: 10px;
                 background: linear-gradient(270deg, rgb(188, 255, 202) 4%, rgb(185, 246, 235));
                 color:#000;
                 font-size: 18px;
                 font-family: sans-serif;
                 padding: 10px;
                 border: none;
+                min-height:150px;
                 &:focus{
                     outline:3px solid aqua;
                 }
@@ -67,6 +71,7 @@ header{
                 &:focus{
                     outline:3px solid aqua;
                 }
+                min-height:150px;
             }
         }
     }

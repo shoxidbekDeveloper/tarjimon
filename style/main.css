@@ -26,8 +26,15 @@ header {
   padding: 10px 0;
 }
 
-.text .row div textarea {
+.text {
   margin-top: 10px;
+}
+
+.text .row div h1 {
+  text-align: center;
+}
+
+.text .row div textarea {
   background: -webkit-gradient(linear, right top, left top, color-stop(4%, #bcffca), to(#b9f6eb));
   background: linear-gradient(270deg, #bcffca 4%, #b9f6eb);
   color: #000;
@@ -35,6 +42,7 @@ header {
   font-family: sans-serif;
   padding: 10px;
   border: none;
+  min-height: 150px;
 }
 
 .text .row div textarea:focus {
@@ -67,6 +75,7 @@ header {
   font-family: sans-serif;
   padding: 10px;
   border: none;
+  min-height: 150px;
 }
 
 .hero .row div textarea:focus {
