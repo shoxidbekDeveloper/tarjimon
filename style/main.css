@@ -26,7 +26,50 @@ header {
   padding: 10px 0;
 }
 
+.text .row div textarea {
+  margin-top: 10px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(4%, #bcffca), to(#b9f6eb));
+  background: linear-gradient(270deg, #bcffca 4%, #b9f6eb);
+  color: #000;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px;
+  border: none;
+}
+
+.text .row div textarea:focus {
+  outline: 3px solid aqua;
+}
+
 .hero .row div form div select {
   width: 100%;
+  font-size: 18px;
+}
+
+.hero .row div form div select option {
+  font-size: 18px;
+}
+
+.hero .row div form div select option:focus {
+  outline: none;
+}
+
+.hero .row div form div select:focus {
+  outline: none;
+}
+
+.hero .row div textarea {
+  margin-top: 10px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(4%, #bcffca), to(#b9f6eb));
+  background: linear-gradient(270deg, #bcffca 4%, #b9f6eb);
+  color: #000;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px;
+  border: none;
+}
+
+.hero .row div textarea:focus {
+  outline: 3px solid aqua;
 }
 /*# sourceMappingURL=main.css.map */
